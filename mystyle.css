@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 3em;
+    padding: 30px 0px;
+    background-color: #333;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#heading {
+    position: sticky;
+    background-color: #333;
+    top: 0;
+    z-index: 9;
+    margin-left: 0px;
+    padding: 15px 0px;
+}
+
+.ts {
+    color: #ffd31d;
+}
+
+p,
+a {
+    font-size: 100%;
+}
+
+a:active,
+a:focus,
+a:visited {
+    color: #ffd31d;
+    text-decoration: none;
+}
+
+.inputText {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffd31d;
+    width: 30%;
+    margin: 30 15;
+    outline: none;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #ffd31d;
+    background-color: #ffd31d;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.btn:active {
+    border: 2px solid #333;
+    box-shadow: inset 0 0 5px #000000;
+}
+
+#no-notes {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 3em 1em;
+}
+
+ul li a {
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+    background: #ffd31d;
+    display: block;
+    height: 10em;
+    width: 10em;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+}
+
+ul li {
+    margin: 1em;
+    float: left;
+    position: relative;
+}
+
+ul li h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+ul li p {
+    font-family: "Reenie Beanie", cursive;
+    font-size: 1.1rem;
+}
+
+.delete {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 4px double white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul li a {
+    transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    cursor: default;
+}
+
+
+/* matches every element that is even no. child of li etc. 2,4,.... */
+
+ul li:nth-child(even) a {
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background: #ff5733;
+}
+
+
+/* matches every 3 elements that is the nth child of li etc. 3,6,... */
+
+ul li:nth-child(3n) a {
+    transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background: #77d8d8;
+}
+
+ul li a:hover,
+ul li a:focus {
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+    transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin-top: 1em;
+    }
+    #new-note-title-input,
+    #new-note-body-input {
+        display: block;
+        width: 90%;
+        margin-left: 0px;
+    }
+    #heading {
+        margin-left: 0px;
+    }
+    .btn {
+        margin-left: 0px;
+    }
+}
