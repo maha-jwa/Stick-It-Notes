@@ -4,7 +4,7 @@
     "start_url": "index.html",
     "scope": "./",
     "icons": [{
-            "src": "STICKNOTES.png",
+            "src": "STICKNOTES_s.png",
             "sizes": "192x192",
             "type": "image/png"
         },

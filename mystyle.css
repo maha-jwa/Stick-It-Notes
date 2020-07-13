@@ -21,22 +21,6 @@ body {
     padding: 15px 0px;
 }
 
-.ts {
-    color: #ffd31d;
-}
-
-p,
-a {
-    font-size: 100%;
-}
-
-a:active,
-a:focus,
-a:visited {
-    color: #ffd31d;
-    text-decoration: none;
-}
-
 .inputText {
     padding: 10px;
     border-radius: 5px;
@@ -154,6 +138,33 @@ ul li a:focus {
     -moz-transform: scale(1.25);
     position: relative;
     z-index: 5;
+}
+
+.ft a:active,
+.ft a:focus,
+.ft a:visited,
+.ft a:link {
+    color: #ffd31d;
+    text-decoration: none;
+}
+
+.ft p {
+    padding-top: 5px;
+}
+
+footer {
+    font-size: 100%;
+    color: #ffd31d;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: #333;
+    z-index: 9;
+    height: 60px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
