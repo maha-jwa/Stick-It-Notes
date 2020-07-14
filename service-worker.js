@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["css/mystyle.css","ac7f55dd89bef5eed32d5dfca3045845"],["index.html","4171aec6f0a10cab3dd7782d67cc82db"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","12d79a37808abb0564f9053af9005319"],["package.json","956c0e004ea7325fadddd7294cbbd06c"]];
+var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["STICKYNOTES_s.png","ca27cc71d1dcb53cd399a2ad5834c1bd"],["index.html","0a6522f1c25e330a971cb6c5329195fd"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","bed7484566f55d7dbe76941905307f89"],["mystyle.css","d868c08f47165dc8c4d9c42abfb21493"],["package.json","d5f12e0755a068c72116985655fc3151"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 

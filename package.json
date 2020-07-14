@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tharunShiv/stick-it-notes.git"
+        "url": "git+https://github.com/maha-jwa/Stick-It-Notes.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/tharunShiv/stick-it-notes/issues"
+        "url": "https://github.com/maha-jwa/Stick-It-Notes/issues"
     },
-    "homepage": "https://github.com/tharunShiv/stick-it-notes#readme",
+    "homepage": "https://github.com/maha-jwa/Stick-It-Notes",
     "dependencies": {
         "sw-precache": "^5.2.1"
     }
