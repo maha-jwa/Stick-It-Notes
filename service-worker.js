@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["STICKYNOTES_s.png","ca27cc71d1dcb53cd399a2ad5834c1bd"],["index.html","0a6522f1c25e330a971cb6c5329195fd"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","bed7484566f55d7dbe76941905307f89"],["mystyle.css","d868c08f47165dc8c4d9c42abfb21493"],["package.json","d5f12e0755a068c72116985655fc3151"]];
+var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["STICKYNOTES_s.png","ca27cc71d1dcb53cd399a2ad5834c1bd"],["index.html","ffdc08eed5e9c47af4d0d150bcb22a5d"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","bed7484566f55d7dbe76941905307f89"],["mystyle.css","d868c08f47165dc8c4d9c42abfb21493"],["package.json","d5f12e0755a068c72116985655fc3151"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
