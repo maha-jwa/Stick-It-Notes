@@ -4,16 +4,16 @@
     "start_url": "index.html",
     "scope": "./",
     "icons": [{
-            "src": "STICKNOTES100.png",
+            "src": "STICKYNOTES100.png",
             "sizes": "100x100",
             "type": "image/png"
         }, {
-            "src": "STICKNOTES_s.png",
+            "src": "STICKYNOTES_s.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "STICKNOTES.png",
+            "src": "STICKYNOTES.png",
             "sizes": "512x512",
             "type": "image/png"
         }
