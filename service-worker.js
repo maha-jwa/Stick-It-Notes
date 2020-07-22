@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["aww.mp3","e894bb4f5ddea603f6684f247fe0d215"],["cash.mp3","915cfb823daeba22f1acc03c3da13bfe"],["index.html","fab1db2d1f6a04aa4be0ae2066644130"],["logo.png","357d727c3d75abbadd91a4233c86fb28"],["logo100.png","fc7bc17f1c99c7ad8a3793fb1732e8ba"],["logo192.png","9227b4d79a08406f224265820588b08c"],["logo480.png","8b9170d3ea4d844a2661a898ebe36843"],["manifest.json","f0a7dff982859ddfb68854232780b786"],["package.json","71daed98e6dc265e6e63aae6025389b2"],["paper.png","c5e546cd9a58fd4ab82796386643563c"],["rock.png","ce821bc75607973e611034134c485cf6"],["scissors.png","66b48df7b257283fa500165cba9444f9"],["script.js","4180be89271f876b9b0ef42f539b1ff8"],["style.css","32c4795f5c1f42114c18714adbf144f8"],["swish.m4a","af479ba9668b893cbf56fc2d39eeeb5a"]];
+var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["STICKYNOTES100.png","181c4267572db1d2cd2e83ed1da77cd8"],["STICKYNOTES_s.png","ca27cc71d1dcb53cd399a2ad5834c1bd"],["index.html","9e43ecb88d2c8f143fd6ff88d64bcee2"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","7e18bcfdbc3ae635fe73620d964d3e72"],["mystyle.css","d868c08f47165dc8c4d9c42abfb21493"],["package.json","d5f12e0755a068c72116985655fc3151"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 

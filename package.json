@@ -1,22 +1,22 @@
 {
-    "name": "RPS Game",
+    "name": "stick-it-notes",
     "version": "1.0.0",
     "description": "",
-    "main": "script.js",
+    "main": "myscripts.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "sw-precache": "sw-precache"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/maha-jwa/RPS-Game.git"
+        "url": "git+https://github.com/maha-jwa/Stick-It-Notes.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/maha-jwa/RPS-Game/issues"
+        "url": "https://github.com/maha-jwa/Stick-It-Notes/issues"
     },
-    "homepage": "https://github.com/maha-jwa/RPS-Game",
+    "homepage": "https://github.com/maha-jwa/Stick-It-Notes",
     "dependencies": {
         "sw-precache": "^5.2.1"
     }
