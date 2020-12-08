@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["STICKYNOTES100.png","181c4267572db1d2cd2e83ed1da77cd8"],["STICKYNOTES_s.png","ca27cc71d1dcb53cd399a2ad5834c1bd"],["index.html","556438318b2a74f01e699eb852959b47"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","7e18bcfdbc3ae635fe73620d964d3e72"],["mystyle.css","d868c08f47165dc8c4d9c42abfb21493"],["package.json","d5f12e0755a068c72116985655fc3151"]];
+var precacheConfig = [["STICKYNOTES.png","dd751d3cf1d9d17827ffd8d2d95a39db"],["STICKYNOTES100.png","181c4267572db1d2cd2e83ed1da77cd8"],["STICKYNOTES_s.png","ca27cc71d1dcb53cd399a2ad5834c1bd"],["index.html","59ce3e2805d462c425686c61c0645f72"],["js/myscript.js","ba9870257e4805c5123a7aa88bb65cdd"],["manifest.json","7e18bcfdbc3ae635fe73620d964d3e72"],["mystyle.css","d868c08f47165dc8c4d9c42abfb21493"],["package.json","d5f12e0755a068c72116985655fc3151"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
